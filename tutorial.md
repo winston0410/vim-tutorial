@@ -106,7 +106,7 @@ NOTE: As you go through this tutor, do not try to memorize, learn by usage.
   4. As each error is fixed press <ESC> to return to Normal mode.
      Repeat steps 2 through 4 to correct the sentence.
 
----> There is some text missing in this line.
+---> There is some text missing from this line.
 ---> There is some text missing from this line.
 
   5. When you are comfortable inserting text move to lesson 1.5.
@@ -200,7 +200,7 @@ Now continue with Lesson 2.
 	it.  Vim is waiting for you to type  w .  If you see another character
 	than  d  you typed something wrong; press  <ESC>  and start over.
 
----> There are a some words fun that don't belong in this sentence.
+---> There are some words that don't belong in this sentence.
 
   5. Repeat steps 3 and 4 until the sentence is correct and go to Lesson 2.2.
 
@@ -379,10 +379,10 @@ NOTE:  Pressing just the motion while in Normal mode without an operator will
 
   5. Repeat steps 2 through 4 to put all the lines in correct order.
 
----> d) Can you learn too?
+---> a) Roses are red,
 ---> b) Violets are blue,
 ---> c) Intelligence is learned,
----> a) Roses are red,
+---> d) Can you learn too?
 
 
 
@@ -400,7 +400,7 @@ NOTE:  Pressing just the motion while in Normal mode without an operator will
 
   4. Repeat steps 2 and 3 until the first line is equal to the second one.
 
---->  Whan this lime was tuoed in, someone presswd some wrojg keys!
+--->  When this line was typed in, someone pressed some wrong keys!
 --->  When this line was typed in, someone pressed some wrong keys!
 
   5. Now move on to Lesson 3.3.
@@ -425,7 +425,7 @@ NOTE: Remember that you should be learning by doing, not memorization.
 
   5. Repeat steps 3 and 4 until the first sentence is the same as the second.
 
----> This lubw has a few wptfd that mrrf changing usf the change operator.
+---> This line has a few words that need changing using the change operator.
 ---> This line has a few words that need changing using the change operator.
 
 Notice that  ce  deletes the word and places you in Insert mode.
@@ -450,7 +450,7 @@ Notice that  ce  deletes the word and places you in Insert mode.
 
   5. Type  c$  and type the rest of the line like the second and press <ESC>.
 
----> The end of this line needs some help to make it like the second.
+---> The end of this line needs to be corrected using the  c$  command.
 ---> The end of this line needs to be corrected using the  c$  command.
 
 NOTE:  You can use the Backspace key to correct mistakes while typing.
