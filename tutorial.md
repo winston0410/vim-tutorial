@@ -81,10 +81,9 @@ Note: The cursor keys should also work.  But using hjkl you will be able to
 
   4. Repeat steps 2 through 4 until the sentence is correct.
 
----> The ccow jumpedd ovverr thhe mooon.
+---> The cow jumped over the moon. 
 
   5. Now that the line is correct, go on to Lesson 1.4.
-
 NOTE: As you go through this tutor, do not try to memorize, learn by usage.
 
 
@@ -105,7 +104,7 @@ NOTE: As you go through this tutor, do not try to memorize, learn by usage.
   4. As each error is fixed press <ESC> to return to Normal mode.
      Repeat steps 2 through 4 to correct the sentence.
 
----> There is text misng this .
+---> There is text missing this.
 ---> There is some text missing from this line.
 
   5. When you are comfortable inserting text move to the summary below.
@@ -152,7 +151,7 @@ Now continue with Lesson 2.
   NOTE: The letters dw will appear on the last line of the screen as you type
 	them. If you typed something wrong, press  <ESC>  and start over.
 
----> There are a some words fun that don't belong paper in this sentence.
+---> There are some words that don't belong in this sentence.
 
   5. Repeat steps 3 and 4 until the sentence is correct and go to Lesson 2.2.
 
@@ -172,7 +171,7 @@ Now continue with Lesson 2.
 
   4. Type    d$    to delete to the end of the line.
 
----> Somebody typed the end of this line twice. end of this line twice.
+---> Somebody typed the end of this line twice.
 
 
   5. Move on to Lesson 2.3 to understand what is happening.
@@ -243,10 +242,9 @@ NOTE:  For the adventurous, pressing just the object while in Normal mode
   7. Now type CTRL-R (keeping CTRL key pressed while hitting R) a few times
      to redo the commands (undo the undo's).
 
----> Fiix the errors oon thhis line and reeplace them witth undo.
+---> Fix the errors on this line and replace them with undo.
 
   8. These are very useful commands.  Now move on to the Lesson 2 Summary.
-
 
 
 
@@ -310,7 +308,7 @@ NOTE:  For the adventurous, pressing just the object while in Normal mode
 
   4. Repeat steps 2 and 3 until the first line is correct.
 
---->  Whan this lime was tuoed in, someone presswd some wrojg keys!
+--->  When this line was typed in, someone pressed some wrong keys!
 --->  When this line was typed in, someone pressed some wrong keys!
 
   5. Now move on to Lesson 3.2.
@@ -335,7 +333,7 @@ NOTE: Remember that you should be learning by use, not memorization.
 
   5. Repeat steps 3 and 4 until the first sentence is the same as the second.
 
----> This lubw has a few wptfd that mrrf changing usf the change command.
+---> This line has a few words that need changing using the change command.
 ---> This line has a few words that need changing using the change command.
 
 Notice that  cw  not only replaces the word, but also places you in insert.
@@ -471,7 +469,7 @@ Note: This is very useful in debugging a program with unmatched parentheses!
   3. Now type	 :s/thee/the/g	   meaning substitute globally on the line.
      This changes all occurrences on the line.
 
----> thee best time to see thee flowers is in thee spring.
+---> the best time to see the flowers is in the spring.
 
   4. To change every occurrence of a character string between two lines,
      type   :#,#s/old/new/g    where #,# are the numbers of the two lines.
