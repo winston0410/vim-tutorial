@@ -575,7 +575,7 @@ Note: This is very useful in debugging a program with unmatched parentheses!
 
        ** To insert the contents of a file, type   :r FILENAME **
 
-zsh:1: command not found: s
+  1. Type   :!dir   to make sure your TEST filename is present from before.
 
   2. Place the cursor at the top of this page.
 
@@ -651,7 +651,6 @@ Open up a line above this by typing Shift-O while the cursor is on this line.
      cursor.  (Uppercase  A  appends to the end of the line.)
 
 Note: This avoids typing  i , the last character, the text to insert, <ESC>,
-
       cursor-right, and finally, x , just to append to the end of a line!
 
   3. Now complete the first line.  Note also that append is exactly the same
