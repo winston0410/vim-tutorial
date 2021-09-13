@@ -82,7 +82,7 @@ NOTE:  :q! <ENTER>  discards any changes you made.  In a few lessons you
 
   4. Repeat steps 2 through 4 until the sentence is correct.
 
----> The ccow jumpedd ovverr thhe mooon.
+---> The cow jumped over the moon.
 
   5. Now that the line is correct, go on to Lesson 1.4.
 
@@ -106,7 +106,7 @@ NOTE: As you go through this tutor, do not try to memorize, learn by usage.
   4. As each error is fixed press <ESC> to return to Normal mode.
      Repeat steps 2 through 4 to correct the sentence.
 
----> There is text misng this .
+---> There is some text missing in this line.
 ---> There is some text missing from this line.
 
   5. When you are comfortable inserting text move to lesson 1.5.
@@ -129,9 +129,9 @@ NOTE: As you go through this tutor, do not try to memorize, learn by usage.
   4. Move the cursor to the second line marked ---> and repeat 
      steps 2 and 3 to correct this sentence.
 
----> There is some text missing from th
+---> There is some text missing from this line.
      There is some text missing from this line.
----> There is also some text miss
+---> There is also some text missing here.
      There is also some text missing here.
 
   5. When you are comfortable appending text move to lesson 1.6.
@@ -200,7 +200,7 @@ Now continue with Lesson 2.
 	it.  Vim is waiting for you to type  w .  If you see another character
 	than  d  you typed something wrong; press  <ESC>  and start over.
 
----> There are a some words fun that don't belong paper in this sentence.
+---> There are a some words fun that don't belong in this sentence.
 
   5. Repeat steps 3 and 4 until the sentence is correct and go to Lesson 2.2.
 
@@ -219,7 +219,7 @@ Now continue with Lesson 2.
 
   4. Type    d$    to delete to the end of the line.
 
----> Somebody typed the end of this line twice. end of this line twice.
+---> Somebody typed the end of this line twice.
 
 
   5. Move on to Lesson 2.3 to understand what is happening.
@@ -291,7 +291,7 @@ NOTE:  Pressing just the motion while in Normal mode without an operator will
   3. Repeat steps 1 and 2 with a different count to delete the consecutive
      UPPER CASE words with one command
 
---->  this ABC DE line FGHI JK LMN OP of words is Q RS TUV cleaned up.
+--->  this line of words is up.
 
 
 
@@ -312,10 +312,7 @@ NOTE:  Pressing just the motion while in Normal mode without an operator will
   4. Type   2dd   to delete two lines.
 
 --->  1)  Roses are red,
---->  2)  Mud is fun,
 --->  3)  Violets are blue,
---->  4)  I have a car,
---->  5)  Clocks tell time,
 --->  6)  Sugar is sweet
 --->  7)  And so are you.
 
@@ -336,7 +333,7 @@ NOTE:  Pressing just the motion while in Normal mode without an operator will
   7. Now type CTRL-R (keeping CTRL key pressed while hitting R) a few times
      to redo the commands (undo the undo's).
 
----> Fiix the errors oon thhis line and reeplace them witth undo.
+---> Fix the errors on this line and replace them with undo.
 
   8. These are very useful commands.  Now move on to the Lesson 2 Summary.
 
