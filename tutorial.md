@@ -55,19 +55,13 @@ NOTE: The cursor keys should also work.  But using hjkl you will be able to
   2. Type:	:q! <ENTER>.
      This exits the editor, DISCARDING any changes you have made.
 
-<<<<<<< HEAD
+
   3. When you see the shell prompt, type the command that got you into this
-<<<<<<< HEAD
-     tutor.  That could be:	vim tutor <ENTER>
-=======
   3. When you see the shell prompt, type the command that got you into this tutor.  That could be:	vim tutor <ENTER>
->>>>>>> cba59dd323e6f4b3974806a9f1a6ddd1fc1e575c
      Normally you would use:	vim tutor <ENTER>
 
----> 'vim' means enter the vim editor, 'tutor' is the file you wish to edit.
-=======
->>>>>>> f07e47c (Update vim tutorial to 1.7)
-     tutor.  That would be:	vimtutor <ENTER>
+'vim' means enter the vim editor, 'tutor' is the file you wish to edit.
+
 
 
   4. If you have these steps memorized and are confident, execute steps
@@ -118,14 +112,11 @@ NOTE: As you go through this tutor, do not try to memorize, learn by usage.
   4. As each error is fixed press <ESC> to return to Normal mode.
      Repeat steps 2 through 4 to correct the sentence.
 
----> There is text missing this .
----> There is some text missing from this line.
+There is some text missing from this line.
 
   5. When you are comfortable inserting text move to lesson 1.5.
 
----> There is some text missing from th
      There is some text missing from this line.
----> There is also some text miss
      There is also some text missing here.
 
   5. When you are comfortable appending text move to lesson 1.6.
@@ -146,9 +137,9 @@ NOTE: As you go through this tutor, do not try to memorize, learn by usage.
   4. Move the cursor to the second line marked ---> and repeat 
      steps 2 and 3 to correct this sentence.
 
----> There is some text missing from th
+
      There is some text missing from this line.
----> There is also some text miss
+
      There is also some text missing here.
 
   5. When you are comfortable appending text move to lesson 1.6.
@@ -217,7 +208,7 @@ Now continue with Lesson 2.
 	it.  Vim is waiting for you to type  w .  If you see another character
 	than  d  you typed something wrong; press  <ESC>  and start over.
 
----> There are a some words fun that don't belong paper in this sentence.
+There are a some words fun that don't belong praper in this sentence.
 
   5. Repeat steps 3 and 4 until the sentence is correct and go to Lesson 2.2.
 
@@ -236,7 +227,7 @@ Now continue with Lesson 2.
 
   4. Type    d$    to delete to the end of the line.
 
----> Somebody typed the end of this line twice. end of this line twice.
+
 
 
   5. Move on to Lesson 2.3 to understand what is happening.
@@ -307,7 +298,7 @@ NOTE:  Pressing just the motion while in Normal mode without an operator will
   3. Repeat steps 1 and 2 with a different count to delete the consecutive
      UPPER CASE words with one command
 
---->  this ABC DE line FGHI JK LMN OP of words is Q RS TUV cleaned up.
+
 
 
 
@@ -327,13 +318,7 @@ NOTE:  Pressing just the motion while in Normal mode without an operator will
   3. Now move to the fourth line.
   4. Type   2dd   to delete two lines.
 
---->  1)  Roses are red,
---->  2)  Mud is fun,
---->  3)  Violets are blue,
---->  4)  I have a car,
---->  5)  Clocks tell time,
---->  6)  Sugar is sweet
---->  7)  And so are you.
+
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -352,7 +337,7 @@ NOTE:  Pressing just the motion while in Normal mode without an operator will
   7. Now type CTRL-R (keeping CTRL key pressed while hitting R) a few times
      to redo the commands (undo the undo's).
 
----> Fix the errors oon this line and replace them with undo.
+
 
   8. These are very useful commands.  Now move on to the Lesson 2 Summary.
 
@@ -398,10 +383,6 @@ NOTE:  Pressing just the motion while in Normal mode without an operator will
 
   5. Repeat steps 2 through 4 to put all the lines in correct order.
 
----> d) Can you learn too?
----> b) Violets are blue,
----> c) Intelligence is learned,
----> a) Roses are red,
 
 
 
@@ -419,8 +400,7 @@ NOTE:  Pressing just the motion while in Normal mode without an operator will
 
   4. Repeat steps 2 and 3 until the first line is equal to the second one.
 
---->  When this lime was typed in, someone pressed some wrong keys!
---->  When this line was typed in, someone pressed some wrong keys!
+
 
   5. Now move on to Lesson 3.3.
 
@@ -444,14 +424,10 @@ NOTE: Remember that you should be learning by doing, not memorization.
 
   5. Repeat steps 3 and 4 until the first sentence is the same as the second.
 
-<<<<<<< HEAD
-=======
 
----> This lubw has a few words that mrrf changing usf the change command.
----> This line has a few words that need changing using the change command.
->>>>>>> cba59dd323e6f4b3974806a9f1a6ddd1fc1e575c
----> This lubw has a few wptfd that mrrf changing usf the change operator.
----> This line has a few words that need changing using the change operator.
+This lubw has a few words that mrrf changing usf the change command.
+This line has a few words that need changing using the change command.
+
 
 Notice that  ce  deletes the word and places you in Insert mode.
 
@@ -475,8 +451,8 @@ Notice that  ce  deletes the word and places you in Insert mode.
 
   5. Type  c$  and type the rest of the line like the second and press <ESC>.
 
----> The end of this line needs some help to make it like the second.
----> The end of this line needs to be corrected using the  c$  command.
+
+The end of this line needs to be corrected using the  c$  command.
 
 NOTE:  You can use the Backspace key to correct mistakes while typing.
 
@@ -540,14 +516,10 @@ NOTE:  You may see the cursor position in the lower right corner of the screen
   3. To search for the same phrase again, simply type  n .
      To search for the same phrase in the opposite direction, type  N .
 
-<<<<<<< HEAD
-  4. To search for a phrase in the backward direction, use  ?  instead of  / .
-=======
   4. If you want to search for a phrase in the backwards direction, use the
      command  ?  instead of /.
 
 ---> When the search reaches the end of the file it will continue at the start.
->>>>>>> cba59dd323e6f4b3974806a9f1a6ddd1fc1e575c
 
   5. To go back to where you came from press  CTRL-O  (Keep Ctrl down while
      pressing the letter o).  Repeat to go back further.  CTRL-I goes forward.
@@ -779,9 +751,8 @@ NOTE:  You can also read the output of an external command.  For example,
      mode.
 
   5. Use  e  to move to the next incomplete word and repeat steps 3 and 4.
-  
----> This li will allow you to pract appendi text to a line.
----> This line will allow you to practice appending text to a line.
+ 
+This line will allow you to practice appending text to a line.
 
 NOTE:  a, i and A all go to the same Insert mode, the only difference is where
        the characters are inserted.
@@ -836,10 +807,6 @@ NOTE:  Replace mode is like Insert mode, but every typed character deletes an
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 			    Lesson 6.5: SET OPTION
 
-<<<<<<< HEAD
-
-=======
->>>>>>> cba59dd323e6f4b3974806a9f1a6ddd1fc1e575c
 	  ** Set an option so a search or substitute ignores case **
 
   1. Search for 'ignore' by entering:   /ignore  <ENTER>
