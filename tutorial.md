@@ -310,7 +310,7 @@ NOTE:  For the adventurous, pressing just the object while in Normal mode
 
   4. Repeat steps 2 and 3 until the first line is correct.
 
---->  Whan this lime was tuoed in, someone presswd some wrojg keys!
+--->  When this lime was typed in, someone pressed some wrong keys!
 --->  When this line was typed in, someone pressed some wrong keys!
 
   5. Now move on to Lesson 3.2.
@@ -335,7 +335,7 @@ NOTE: Remember that you should be learning by use, not memorization.
 
   5. Repeat steps 3 and 4 until the first sentence is the same as the second.
 
----> This lubw has a few wptfd that mrrf changing usf the change command.
+---> This lubw has a few words that mrrf changing usf the change command.
 ---> This line has a few words that need changing using the change command.
 
 Notice that  cw  not only replaces the word, but also places you in insert.
@@ -420,7 +420,7 @@ Now go on to the next lesson.
   1. In Normal mode type the  /  character.  Notice that it and the cursor
      appear at the bottom of the screen as with the  :	command.
 
-  2. Now type 'errroor' <ENTER>.  This is the word you want to search for.
+  2. Now type 'error' <ENTER>.  This is the word you want to search for.
 
   3. To search for the same phrase again, simply type  n .
      To search for the same phrase in the opposite direction, type  Shift-N .
@@ -430,7 +430,7 @@ Now go on to the next lesson.
 
 ---> When the search reaches the end of the file it will continue at the start.
 
-  "errroor" is not the way to spell error;  errroor is an error.
+  "error" is not the way to spell error;  error is an error.
 
 
 
@@ -704,7 +704,7 @@ Note: This avoids typing  i , the last character, the text to insert, <ESC>,
   3. Now search for 'ignore' again by entering: n
      Repeat search several more times by hitting the n key
 
-  4. Set the 'hlsearch' and 'incsearch' options:
+  4. Set the 'history' and 'search' options:
      :set hls is
 
   5. Now enter the search command again, and see what happens:
