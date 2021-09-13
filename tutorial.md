@@ -11,7 +11,7 @@
      depending upon how much time is spent with experimentation.
 
      The commands in the lessons will modify the text.  Make a copy of this
-     file to practise on (if you started "vimtutor" this is already a copy).
+     file to practice on (if you started "vim tutor" this is already a copy).
 
      It is important to remember that this tutor is set up to teach by
      use.  That means that you need to execute the commands to learn them
@@ -58,7 +58,7 @@ Note: The cursor keys should also work.  But using hjkl you will be able to
 				:wq  <ENTER>
 
   3. When you see the shell prompt, type the command that got you into this
-     tutor.  That could be:	vimtutor <ENTER>
+     tutor.  That could be:	vim tutor <ENTER>
      Normally you would use:	vim tutor <ENTER>
 
 ---> 'vim' means enter the vim editor, 'tutor' is the file you wish to edit.
@@ -81,7 +81,7 @@ Note: The cursor keys should also work.  But using hjkl you will be able to
 
   4. Repeat steps 2 through 4 until the sentence is correct.
 
----> The ccow jumpedd ovverr thhe mooon.
+---> The cow jumped over the moon.
 
   5. Now that the line is correct, go on to Lesson 1.4.
 
@@ -105,7 +105,7 @@ NOTE: As you go through this tutor, do not try to memorize, learn by usage.
   4. As each error is fixed press <ESC> to return to Normal mode.
      Repeat steps 2 through 4 to correct the sentence.
 
----> There is text misng this .
+---> There is text missing this .
 ---> There is some text missing from this line.
 
   5. When you are comfortable inserting text move to the summary below.
@@ -243,7 +243,7 @@ NOTE:  For the adventurous, pressing just the object while in Normal mode
   7. Now type CTRL-R (keeping CTRL key pressed while hitting R) a few times
      to redo the commands (undo the undo's).
 
----> Fiix the errors oon thhis line and reeplace them witth undo.
+---> Fix the errors oon this line and replace them with undo.
 
   8. These are very useful commands.  Now move on to the Lesson 2 Summary.
 
