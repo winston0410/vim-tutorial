@@ -55,15 +55,20 @@ NOTE: The cursor keys should also work.  But using hjkl you will be able to
   2. Type:	:q! <ENTER>.
      This exits the editor, DISCARDING any changes you have made.
 
+<<<<<<< HEAD
   3. When you see the shell prompt, type the command that got you into this
 <<<<<<< HEAD
      tutor.  That could be:	vim tutor <ENTER>
+=======
+  3. When you see the shell prompt, type the command that got you into this tutor.  That could be:	vim tutor <ENTER>
+>>>>>>> cba59dd323e6f4b3974806a9f1a6ddd1fc1e575c
      Normally you would use:	vim tutor <ENTER>
 
 ---> 'vim' means enter the vim editor, 'tutor' is the file you wish to edit.
 =======
 >>>>>>> f07e47c (Update vim tutorial to 1.7)
      tutor.  That would be:	vimtutor <ENTER>
+
 
   4. If you have these steps memorized and are confident, execute steps
      1 through 3 to exit and re-enter the editor.
@@ -439,6 +444,12 @@ NOTE: Remember that you should be learning by doing, not memorization.
 
   5. Repeat steps 3 and 4 until the first sentence is the same as the second.
 
+<<<<<<< HEAD
+=======
+
+---> This lubw has a few words that mrrf changing usf the change command.
+---> This line has a few words that need changing using the change command.
+>>>>>>> cba59dd323e6f4b3974806a9f1a6ddd1fc1e575c
 ---> This lubw has a few wptfd that mrrf changing usf the change operator.
 ---> This line has a few words that need changing using the change operator.
 
@@ -529,7 +540,14 @@ NOTE:  You may see the cursor position in the lower right corner of the screen
   3. To search for the same phrase again, simply type  n .
      To search for the same phrase in the opposite direction, type  N .
 
+<<<<<<< HEAD
   4. To search for a phrase in the backward direction, use  ?  instead of  / .
+=======
+  4. If you want to search for a phrase in the backwards direction, use the
+     command  ?  instead of /.
+
+---> When the search reaches the end of the file it will continue at the start.
+>>>>>>> cba59dd323e6f4b3974806a9f1a6ddd1fc1e575c
 
   5. To go back to where you came from press  CTRL-O  (Keep Ctrl down while
      pressing the letter o).  Repeat to go back further.  CTRL-I goes forward.
@@ -818,7 +836,10 @@ NOTE:  Replace mode is like Insert mode, but every typed character deletes an
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 			    Lesson 6.5: SET OPTION
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> cba59dd323e6f4b3974806a9f1a6ddd1fc1e575c
 	  ** Set an option so a search or substitute ignores case **
 
   1. Search for 'ignore' by entering:   /ignore  <ENTER>
@@ -829,7 +850,8 @@ NOTE:  Replace mode is like Insert mode, but every typed character deletes an
   3. Now search for 'ignore' again by pressing  n
      Notice that Ignore and IGNORE are now also found.
 
-  4. Set the 'hlsearch' and 'incsearch' options:  :set hls is
+  4. Set the 'history' and 'search' options:
+     :set hls is
 
   5. Now type the search command again and see what happens:  /ignore <ENTER>
 
