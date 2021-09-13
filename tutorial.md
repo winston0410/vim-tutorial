@@ -56,10 +56,13 @@ NOTE: The cursor keys should also work.  But using hjkl you will be able to
      This exits the editor, DISCARDING any changes you have made.
 
   3. When you see the shell prompt, type the command that got you into this
+<<<<<<< HEAD
      tutor.  That could be:	vim tutor <ENTER>
      Normally you would use:	vim tutor <ENTER>
 
 ---> 'vim' means enter the vim editor, 'tutor' is the file you wish to edit.
+=======
+>>>>>>> f07e47c (Update vim tutorial to 1.7)
      tutor.  That would be:	vimtutor <ENTER>
 
   4. If you have these steps memorized and are confident, execute steps
@@ -115,7 +118,12 @@ NOTE: As you go through this tutor, do not try to memorize, learn by usage.
 
   5. When you are comfortable inserting text move to lesson 1.5.
 
+---> There is some text missing from th
+     There is some text missing from this line.
+---> There is also some text miss
+     There is also some text missing here.
 
+  5. When you are comfortable appending text move to lesson 1.6.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 		     Lesson 1.5: TEXT EDITING - APPENDING
@@ -234,7 +242,6 @@ Now continue with Lesson 2.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 		     Lesson 2.3: ON OPERATORS AND MOTIONS
-
 
   Many commands that change text are made from an operator and a motion.
   The format for a delete command with the  d  delete operator is as follows:
@@ -432,8 +439,6 @@ NOTE: Remember that you should be learning by doing, not memorization.
 
   5. Repeat steps 3 and 4 until the first sentence is the same as the second.
 
----> This lubw has a few words that mrrf changing usf the change command.
----> This line has a few words that need changing using the change command.
 ---> This lubw has a few wptfd that mrrf changing usf the change operator.
 ---> This line has a few words that need changing using the change operator.
 
@@ -524,12 +529,6 @@ NOTE:  You may see the cursor position in the lower right corner of the screen
   3. To search for the same phrase again, simply type  n .
      To search for the same phrase in the opposite direction, type  N .
 
-  4. If you want to search for a phrase in the backwards direction, use the
-     command  ?  instead of /.
-
----> When the search reaches the end of the file it will continue at the start.
-
-  "error" is not the way to spell error;  error is an error.
   4. To search for a phrase in the backward direction, use  ?  instead of  / .
 
   5. To go back to where you came from press  CTRL-O  (Keep Ctrl down while
@@ -795,6 +794,7 @@ NOTE:  Replace mode is like Insert mode, but every typed character deletes an
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 			Lesson 6.4: COPY AND PASTE TEXT
 
+	  ** Use the  y  operator to copy text and  p  to paste it **
 
 	  ** Use the  y  operator to copy text and  p  to paste it **
 
@@ -818,8 +818,6 @@ NOTE:  Replace mode is like Insert mode, but every typed character deletes an
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 			    Lesson 6.5: SET OPTION
 
-  4. Set the 'history' and 'search' options:
-     :set hls is
 
 	  ** Set an option so a search or substitute ignores case **
 
