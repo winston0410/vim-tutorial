@@ -12,7 +12,7 @@
 
      ATTENTION:
      The commands in the lessons will modify the text.  Make a copy of this
-     file to practise on (if you started "vimtutor" this is already a copy).
+     file to practice on (if you started "vim tutor" this is already a copy).
 
      It is important to remember that this tutor is set up to teach by
      use.  That means that you need to execute the commands to learn them
@@ -55,8 +55,14 @@ NOTE: The cursor keys should also work.  But using hjkl you will be able to
   2. Type:	:q! <ENTER>.
      This exits the editor, DISCARDING any changes you have made.
 
+
   3. When you see the shell prompt, type the command that got you into this
-     tutor.  That would be:	vimtutor <ENTER>
+  3. When you see the shell prompt, type the command that got you into this tutor.  That could be:	vim tutor <ENTER>
+     Normally you would use:	vim tutor <ENTER>
+
+'vim' means enter the vim editor, 'tutor' is the file you wish to edit.
+
+
 
   4. If you have these steps memorized and are confident, execute steps
      1 through 3 to exit and re-enter the editor.
@@ -82,7 +88,7 @@ NOTE:  :q! <ENTER>  discards any changes you made.  In a few lessons you
 
   4. Repeat steps 2 through 4 until the sentence is correct.
 
----> The ccow jumpedd ovverr thhe mooon.
+---> The cow jumped over the moon.
 
   5. Now that the line is correct, go on to Lesson 1.4.
 
@@ -106,12 +112,14 @@ NOTE: As you go through this tutor, do not try to memorize, learn by usage.
   4. As each error is fixed press <ESC> to return to Normal mode.
      Repeat steps 2 through 4 to correct the sentence.
 
----> There is text misng this .
----> There is some text missing from this line.
+There is some text missing from this line.
 
   5. When you are comfortable inserting text move to lesson 1.5.
 
+     There is some text missing from this line.
+     There is also some text missing here.
 
+  5. When you are comfortable appending text move to lesson 1.6.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 		     Lesson 1.5: TEXT EDITING - APPENDING
@@ -129,9 +137,9 @@ NOTE: As you go through this tutor, do not try to memorize, learn by usage.
   4. Move the cursor to the second line marked ---> and repeat 
      steps 2 and 3 to correct this sentence.
 
----> There is some text missing from th
+
      There is some text missing from this line.
----> There is also some text miss
+
      There is also some text missing here.
 
   5. When you are comfortable appending text move to lesson 1.6.
@@ -200,7 +208,7 @@ Now continue with Lesson 2.
 	it.  Vim is waiting for you to type  w .  If you see another character
 	than  d  you typed something wrong; press  <ESC>  and start over.
 
----> There are a some words fun that don't belong paper in this sentence.
+There are a some words fun that don't belong praper in this sentence.
 
   5. Repeat steps 3 and 4 until the sentence is correct and go to Lesson 2.2.
 
@@ -219,7 +227,7 @@ Now continue with Lesson 2.
 
   4. Type    d$    to delete to the end of the line.
 
----> Somebody typed the end of this line twice. end of this line twice.
+
 
 
   5. Move on to Lesson 2.3 to understand what is happening.
@@ -230,7 +238,6 @@ Now continue with Lesson 2.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 		     Lesson 2.3: ON OPERATORS AND MOTIONS
-
 
   Many commands that change text are made from an operator and a motion.
   The format for a delete command with the  d  delete operator is as follows:
@@ -291,7 +298,7 @@ NOTE:  Pressing just the motion while in Normal mode without an operator will
   3. Repeat steps 1 and 2 with a different count to delete the consecutive
      UPPER CASE words with one command
 
---->  this ABC DE line FGHI JK LMN OP of words is Q RS TUV cleaned up.
+
 
 
 
@@ -311,13 +318,7 @@ NOTE:  Pressing just the motion while in Normal mode without an operator will
   3. Now move to the fourth line.
   4. Type   2dd   to delete two lines.
 
---->  1)  Roses are red,
---->  2)  Mud is fun,
---->  3)  Violets are blue,
---->  4)  I have a car,
---->  5)  Clocks tell time,
---->  6)  Sugar is sweet
---->  7)  And so are you.
+
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -336,7 +337,7 @@ NOTE:  Pressing just the motion while in Normal mode without an operator will
   7. Now type CTRL-R (keeping CTRL key pressed while hitting R) a few times
      to redo the commands (undo the undo's).
 
----> Fiix the errors oon thhis line and reeplace them witth undo.
+
 
   8. These are very useful commands.  Now move on to the Lesson 2 Summary.
 
@@ -382,10 +383,6 @@ NOTE:  Pressing just the motion while in Normal mode without an operator will
 
   5. Repeat steps 2 through 4 to put all the lines in correct order.
 
----> d) Can you learn too?
----> b) Violets are blue,
----> c) Intelligence is learned,
----> a) Roses are red,
 
 
 
@@ -403,8 +400,7 @@ NOTE:  Pressing just the motion while in Normal mode without an operator will
 
   4. Repeat steps 2 and 3 until the first line is equal to the second one.
 
---->  Whan this lime was tuoed in, someone presswd some wrojg keys!
---->  When this line was typed in, someone pressed some wrong keys!
+
 
   5. Now move on to Lesson 3.3.
 
@@ -428,8 +424,10 @@ NOTE: Remember that you should be learning by doing, not memorization.
 
   5. Repeat steps 3 and 4 until the first sentence is the same as the second.
 
----> This lubw has a few wptfd that mrrf changing usf the change operator.
----> This line has a few words that need changing using the change operator.
+
+This lubw has a few words that mrrf changing usf the change command.
+This line has a few words that need changing using the change command.
+
 
 Notice that  ce  deletes the word and places you in Insert mode.
 
@@ -453,8 +451,8 @@ Notice that  ce  deletes the word and places you in Insert mode.
 
   5. Type  c$  and type the rest of the line like the second and press <ESC>.
 
----> The end of this line needs some help to make it like the second.
----> The end of this line needs to be corrected using the  c$  command.
+
+The end of this line needs to be corrected using the  c$  command.
 
 NOTE:  You can use the Backspace key to correct mistakes while typing.
 
@@ -513,12 +511,15 @@ NOTE:  You may see the cursor position in the lower right corner of the screen
   1. In Normal mode type the  /  character.  Notice that it and the cursor
      appear at the bottom of the screen as with the  :	command.
 
-  2. Now type 'errroor' <ENTER>.  This is the word you want to search for.
+  2. Now type 'error' <ENTER>.  This is the word you want to search for.
 
   3. To search for the same phrase again, simply type  n .
      To search for the same phrase in the opposite direction, type  N .
 
-  4. To search for a phrase in the backward direction, use  ?  instead of  / .
+  4. If you want to search for a phrase in the backwards direction, use the
+     command  ?  instead of /.
+
+---> When the search reaches the end of the file it will continue at the start.
 
   5. To go back to where you came from press  CTRL-O  (Keep Ctrl down while
      pressing the letter o).  Repeat to go back further.  CTRL-I goes forward.
@@ -750,9 +751,8 @@ NOTE:  You can also read the output of an external command.  For example,
      mode.
 
   5. Use  e  to move to the next incomplete word and repeat steps 3 and 4.
-  
----> This li will allow you to pract appendi text to a line.
----> This line will allow you to practice appending text to a line.
+ 
+This line will allow you to practice appending text to a line.
 
 NOTE:  a, i and A all go to the same Insert mode, the only difference is where
        the characters are inserted.
@@ -783,6 +783,7 @@ NOTE:  Replace mode is like Insert mode, but every typed character deletes an
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 			Lesson 6.4: COPY AND PASTE TEXT
 
+	  ** Use the  y  operator to copy text and  p  to paste it **
 
 	  ** Use the  y  operator to copy text and  p  to paste it **
 
@@ -806,7 +807,6 @@ NOTE:  Replace mode is like Insert mode, but every typed character deletes an
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 			    Lesson 6.5: SET OPTION
 
-
 	  ** Set an option so a search or substitute ignores case **
 
   1. Search for 'ignore' by entering:   /ignore  <ENTER>
@@ -817,7 +817,8 @@ NOTE:  Replace mode is like Insert mode, but every typed character deletes an
   3. Now search for 'ignore' again by pressing  n
      Notice that Ignore and IGNORE are now also found.
 
-  4. Set the 'hlsearch' and 'incsearch' options:  :set hls is
+  4. Set the 'history' and 'search' options:
+     :set hls is
 
   5. Now type the search command again and see what happens:  /ignore <ENTER>
 
