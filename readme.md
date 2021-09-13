@@ -11,3 +11,9 @@ For example:
 ```
 ---> The ccow jumpedd ovverr thhe mooon.
 ```
+
+The expected solution would be this:
+
+```
+---> The cow jumped over the moon.
+```
